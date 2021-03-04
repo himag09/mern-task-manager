@@ -23,8 +23,7 @@ app.use('/api/task', require('./routes/task.routes'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-//empezando puta
-
+//iniciar server
 
 app.listen(app.get('port'), ()=>{
     console.log(`Server on port ${app.get('port')}`);
